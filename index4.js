@@ -26,14 +26,6 @@ class Car extends Vehicle {
     }
 
 
-    startEngine(){
-        if(this.fuelLevel > 0){
-            console.log(`${this.name}'s engine started with fuel level: ${this.fuelLevel} `)
-        } else{
-            console.log(`${this.name} cannot start. Fuel level is too low.`);
-        }
-    }
-
     move(){
         console.log(`${this.name} is driving on the road. `);
     }
