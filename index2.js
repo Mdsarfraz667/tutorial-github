@@ -50,6 +50,13 @@ class UpiPayment extends ProcessPayment{
     processPayment(){
         console.log(`Process upi payment of ${this.amount} using the upi id ${this.upiId}`);
     }
+    processPayment(){
+        console.log(`Process upi payment of ${this.amount} using the upi id ${this.upiId}`);
+    }
+    processPayment(){
+        console.log(`Process upi payment of ${this.amount} using the upi id ${this.upiId}`);
+    }
+
 }
 
 const creditcardpay = new CreditCardPayment(12345 , 900);
