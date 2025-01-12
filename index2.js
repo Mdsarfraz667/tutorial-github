@@ -59,14 +59,4 @@ class UpiPayment extends ProcessPayment{
 
 }
 
-const creditcardpay = new CreditCardPayment(12345 , 900);
-creditcardpay.processPayment();
-
-const googlepay = new GooglePayPayment('chandchan38144@gmail.com' , 2000);
-
-googlepay.processPayment();
-
-const upipay = new UpiPayment('abc@ybl' , 5600);
-
-upipay.processPayment();
 
