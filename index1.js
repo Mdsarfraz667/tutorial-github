@@ -22,6 +22,12 @@ class Cat extends Animal {
     }
 }
 
+
+class Bear extends Animal {
+    
+}
+
+
 const dog1 = new Dog("tommy");
 
 dog1.Bark();
