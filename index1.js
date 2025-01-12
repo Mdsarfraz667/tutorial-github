@@ -24,7 +24,7 @@ class Cat extends Animal {
 
 const dog1 = new Dog("tommy");
 
-dog1.Bark();
+dog1.Bark(); 
 
 dog1.eat();
 
